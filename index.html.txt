@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>كنوز النيل - رحلة عبر الحضارة المصرية من الفراعنة إلى الذكاء الاصطناعي</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <i class="fas fa-landmark"></i>
+                    <h1>كنوز النيل</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#pharaonic">العصر الفرعوني</a></li>
+                    <li><a href="#quran">مصر في القرآن</a></li>
+                    <li><a href="#modern">مصر الحديثة</a></li>
+                    <li><a href="#ai-chat">اسأل الذكاء الاصطناعي</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1 class="hero-title">كنوز النيل</h1>
+                <h2 class="hero-subtitle">رحلة عبر 7000 عام من الحضارة والإبداع</h2>
+                <p class="hero-description">من عظمة الفراعنة إلى عصر الذكاء الاصطناعي</p>
+                <button class="cta-button" onclick="scrollToSection('pharaonic')">ابدأ الرحلة</button>
+            </div>
+        </section>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- العصر الفرعوني -->
+        <section id="pharaonic" class="section pharaonic-section">
+            <div class="container">
+                <div class="section-header">
+                    <i class="fas fa-monument"></i>
+                    <h2>العصر الفرعوني: قمة التطور الحضاري</h2>
+                    <p class="section-subtitle">حضارة سبقت عصرها بآلاف السنين</p>
+                </div>
+
+                <div class="timeline">
+                    <!-- الهندسة والعمارة -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>الهندسة والعمارة</h3>
+                            <p>بناء الأهرامات الثلاثة وأبو الهول يُعد معجزة هندسية. الهرم الأكبر (2560 ق.م) يتكون من 2.3 مليون كتلة حجرية، بمتوسط وزن 2.5 طن للكتلة الواحدة.</p>
+                            <div class="evidence-box">
+                                <strong>الدليل:</strong> يوميات "ميرر" المكتشفة توثق عمليات نقل الحجارة في عهد الفرعون خوفو، وهي أقدم السجلات الإدارية المكتوبة في التاريخ.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- الطب والجراحة -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>الطب والجراحة</h3>
+                            <p>ابتكر المصريون القدماء أدوات جراحية متقدمة مثل المشارط ومثاقب الأسنان المعدنية. بردية إدوين سميث (1600 ق.م) توثق 48 حالة جراحية بدقة علمية.</p>
+                            <div class="evidence-box">
+                                <strong>الدليل:</strong> بردية إيبرس تحتوي على أكثر من 700 وصفة طبية ووصف لأمراض القلب والجهاز الهضمي والجلدية.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- الفلك والرياضيات -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>الفلك والرياضيات</h3>
+                            <p>طور المصريون تقويماً شمسياً من 365 يوماً مقسمة إلى 12 شهراً. ابتكروا نظام الكسور العشرية والهندسة المعمارية المتقدمة.</p>
+                            <div class="evidence-box">
+                                <strong>الدليل:</strong> دوائر نبتا بلايا الحجرية (الألفية الخامسة ق.م) تثبت فهمهم العميق لحركة النجوم والفصول.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- الكتابة والأدب -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>الكتابة والأدب</h3>
+                            <p>الهيروغليفية هي واحدة من أقدم أنظمة الكتابة في العالم (3200 ق.م). حجر رشيد كان المفتاح لفك رموزها في العصر الحديث.</p>
+                            <div class="evidence-box">
+                                <strong>الدليل:</strong> أختام الملك "عقرب الأول" (القرن 33 ق.م) وألواح نارمر تحتوي على أقدم الجمل الهيروغليفية المكتملة.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- التكنولوجيا والابتكارات -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>التكنولوجيا والابتكارات</h3>
+                            <p>اخترع المصريون ورق البردي (3000 ق.م)، والساعة المائية (1417-1379 ق.م)، وأدوات البرونز والنحاس، وتقنيات الزجاج الملون.</p>
+                            <div class="evidence-box">
+                                <strong>الدليل:</strong> الساعة المائية المحفوظة في متحف القاهرة من عهد أمنحتب الثالث تثبت دقة قياسهم للوقت.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- مصر في القرآن والسنة -->
+        <section id="quran" class="section quran-section">
+            <div class="container">
+                <div class="section-header">
+                    <i class="fas fa-book-quran"></i>
+                    <h2>مصر في القرآن الكريم والسنة النبوية</h2>
+                    <p class="section-subtitle">تكريم إلهي وذكر خالد في الكتب السماوية</p>
+                </div>
+                <div class="quran-content">
+                    <!-- الذكر الصريح في القرآن -->
+                    <div class="quran-card">
+                        <div class="card-icon"><i class="fas fa-mosque"></i></div>
+                        <h3>الذكر المباشر في القرآن</h3>
+                        <p>ذُكرت مصر باسمها الصريح في القرآن الكريم في أربعة مواضع:</p>
+                        <ul class="ayat-list">
+                            <li><strong>"وَقَالَ الَّذِي اشْتَرَاهُ مِن مِّصْرَ لِامْرَأَتِهِ"</strong> (يوسف: 21)</li>
+                            <li><strong>"ادْخُلُوا مِصْرَ إِن شَاءَ اللَّهُ آمِنِينَ"</strong> (يوسف: 99)</li>
+                            <li><strong>"أَلَيْسَ لِي مُلْكُ مِصْرَ وَهَٰذِهِ الْأَنْهَارُ تَجْرِي مِن تَحْتِي"</strong> (الزخرف: 51)</li>
+                            <li><strong>"وَأَوْحَيْنَا إِلَىٰ مُوسَىٰ وَأَخِيهِ أَن تَبَوَّآ لِقَوْمِكُمَا بِمِصْرَ بُيُوتًا"</strong> (يونس: 87)</li>
+                        </ul>
+                    </div>
+                    <!-- خزائن الأرض -->
+                    <div class="quran-card">
+                        <div class="card-icon"><i class="fas fa-star-and-crescent"></i></div>
+                        <h3>مصر خزائن الأرض</h3>
+                        <p>وصفها الله تعالى على لسان يوسف عليه السلام:</p>
+                        <blockquote class="ayah">
+                            "قَالَ اجْعَلْنِي عَلَىٰ خَزَائِنِ الْأَرْضِ" (يوسف: 55)
+                        </blockquote>
+                        <p>دلالة على كثرة خيراتها وعظم غلاتها ومكانتها الاقتصادية.</p>
+                    </div>
+                    <!-- السنة النبوية -->
+                    <div class="quran-card">
+                        <div class="card-icon"><i class="fas fa-kaaba"></i></div>
+                        <h3>في السنة النبوية الشريفة</h3>
+                        <p>أوصى النبي صلى الله عليه وسلم بأهل مصر خيراً:</p>
+                        <blockquote class="hadith">
+                            "إنكم ستفتحون مصر، وهي أرض يُسمى فيها القيراط، فإذا فتحتموها فأحسنوا إلى أهلها؛ فإن لهم ذمة ورحماً"
+                            <span class="hadith-source">(رواه مسلم)</span>
+                        </blockquote>
+                        <p><strong>الرحم:</strong> هاجر أم إسماعيل عليه السلام كانت من مصر، و<strong>الذمة:</strong> ماريا القبطية أم إبراهيم ابن النبي.</p>
+                    </div>
+                    <!-- فضائل مصر -->
+                    <div class="quran-card">
+                        <div class="card-icon"><i class="fas fa-hand-holding-heart"></i></div>
+                        <h3>فضائل مصر في الإسلام</h3>
+                        <ul class="fadail-list">
+                            <li>مأوى الأنبياء: عاش فيها إبراهيم ويوسف وموسى وعيسى عليهم السلام</li>
+                            <li>ذُكرت بالإشارة في أكثر من 30 موضع في القرآن الكريم</li>
+                            <li>وُصفت بالأرض المباركة: "رَبْوَةٍ ذَاتِ قَرَارٍ وَمَعِينٍ" (المؤمنون: 50)</li>
+                            <li>الله تعالى حفظ جسد فرعون عبرة للأمم: "فَالْيَوْمَ نُنَجِّيكَ بِبَدَنِكَ لِتَكُونَ لِمَنْ خَلْفَكَ آيَةً" (يونس: 92)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- مصر الحديثة والذكاء الاصطناعي -->
+        <section id="modern" class="section modern-section">
+            <div class="container">
+                <div class="section-header">
+                    <i class="fas fa-robot"></i>
+                    <h2>مصر في عصر الذكاء الاصطناعي</h2>
+                    <p class="section-subtitle">من حضارة الأهرامات إلى حضارة البيانات</p>
+                </div>
+                <div class="ai-strategy">
+                    <div class="strategy-card featured">
+                        <h3>الاستراتيجية الوطنية للذكاء الاصطناعي 2025-2030</h3>
+                        <p>في يناير 2025، أطلقت مصر النسخة الثانية من استراتيجيتها الوطنية للذكاء الاصطناعي بإشراف وزارة الاتصالات وتكنولوجيا المعلومات.</p>
+                    </div>
+                    <div class="pillars-grid">
+                        <div class="pillar-card">
+                            <div class="pillar-icon"><i class="fas fa-gavel"></i></div>
+                            <h4>الحوكمة والتمكين</h4>
+                            <p>إنشاء إطار قانوني ومؤسسي لتوجيه نشر الذكاء الاصطناعي، مع مرصد وطني لمراقبة التقدم والأثر.</p>
+                        </div>
+                        <div class="pillar-card">
+                            <div class="pillar-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <h4>البحث العلمي والمواهب</h4>
+                            <p>تدريب 30,000 متخصص في الذكاء الاصطناعي، وتحديث المناهج الأكاديمية، ودعم مراكز الأبحاث المتخصصة.</p>
+                        </div>
+                        <div class="pillar-card">
+                            <div class="pillar-icon"><i class="fas fa-industry"></i></div>
+                            <h4>التطوير الاقتصادي</h4>
+                            <p>دمج الذكاء الاصطناعي في القطاعات الاستراتيجية: الزراعة، الرعاية الصحية، التصنيع، واللوجستيات. دعم 250 شركة ناشئة.</p>
+                        </div>
+                        <div class="pillar-card">
+                            <div class="pillar-icon"><i class="fas fa-globe"></i></div>
+                            <h4>التعاون الدولي</h4>
+                            <p>تعزيز دور مصر في الحوكمة العالمية للذكاء الاصطناعي عبر الاتحاد الأفريقي، جامعة الدول العربية، والأمم المتحدة.</p>
+                        </div>
+                    </div>
+                    <div class="achievements-section">
+                        <h3>إنجازات مصرية في مجال الذكاء الاصطناعي</h3>
+                        <div class="achievements-grid">
+                            <div class="achievement-item">
+                                <i class="fas fa-hospital"></i>
+                                <p>تطبيقات الذكاء الاصطناعي في التصوير الطبي والتشخيص</p>
+                            </div>
+                            <div class="achievement-item">
+                                <i class="fas fa-tractor"></i>
+                                <p>أنظمة الري الذكية والزراعة الدقيقة</p>
+                            </div>
+                            <div class="achievement-item">
+                                <i class="fas fa-building"></i>
+                                <p>الخدمات الحكومية الرقمية المدعومة بالذكاء الاصطناعي</p>
+                            </div>
+                            <div class="achievement-item">
+                                <i class="fas fa-monument"></i>
+                                <p>استخدام الذكاء الاصطناعي في تصوير وحفظ التراث الأثري</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vision-box">
+                        <i class="fas fa-quote-right"></i>
+                        <p class="vision-quote">"الذكاء الاصطناعي يعيد تشكيل بنية التنافسية العالمية بسرعة"</p>
+                        <p class="vision-author">- د. عمرو طلعت، وزير الاتصالات وتكنولوجيا المعلومات</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI Chatbot Section -->
+        <section id="ai-chat" class="section chatbot-section">
+            <div class="container">
+                <div class="section-header">
+                    <i class="fas fa-comments"></i>
+                    <h2>اسأل الذكاء الاصطناعي</h2>
+                    <p class="section-subtitle">استفسر عن أي معلومة تخص تاريخ مصر وحضارتها العريقة</p>
+                </div>
+                <div class="chatbot-container">
+                    <div class="chat-messages" id="chatMessages">
+                        <div class="welcome-message">
+                            <i class="fas fa-robot"></i>
+                            <h3>مرحباً بك في مساعد كنوز النيل الذكي</h3>
+                            <p>يمكنك السؤال عن:</p>
+                            <ul>
+                                <li>إنجازات الحضارة الفرعونية</li>
+                                <li>الاكتشافات الأثرية</li>
+                                <li>مصر في القرآن والسنة</li>
+                                <li>تطور مصر في العصر الحديث</li>
+                                <li>استراتيجيات الذكاء الاصطناعي</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="chat-input-container">
+                        <input type="text" id="userInput" class="chat-input" placeholder="اكتب سؤالك هنا...">
+                        <button onclick="sendMessage()" class="send-button">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                    <div class="quick-questions">
+                        <p><strong>أسئلة سريعة:</strong></p>
+                        <button onclick="askQuestion('ما هي أهم إنجازات الفراعنة؟')" class="quick-btn">أهم إنجازات الفراعنة</button>
+                        <button onclick="askQuestion('كيف بنيت الأهرامات؟')" class="quick-btn">بناء الأهرامات</button>
+                        <button onclick="askQuestion('ماذا قال القرآن عن مصر؟')" class="quick-btn">مصر في القرآن</button>
+                        <button onclick="askQuestion('ما هي استراتيجية مصر للذكاء الاصطناعي؟')" class="quick-btn">الذكاء الاصطناعي</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- المصادر والمراجع -->
+        <section class="section sources-section">
+            <div class="container">
+                <div class="section-header">
+                    <i class="fas fa-book"></i>
+                    <h2>المصادر والمراجع</h2>
+                </div>
+                <div class="sources-grid">
+                    <!-- المصادر المصرية القديمة -->
+                    <div class="source-category">
+                        <h3>المصادر المصرية القديمة</h3>
+                        <ul>
+                            <li>يوميات ميرر - عهد الفرعون خوفو</li>
+                            <li>بردية إدوين سميث - وثائق طبية (1600 ق.م)</li>
+                            <li>بردية إيبرس - 700+ وصفة طبية</li>
+                            <li>حجر رشيد - مفتاح فك الهيروغليفية</li>
+                            <li>دوائر نبتا بلايا الحجرية</li>
+                        </ul>
+                    </div>
+                    <!-- المصادر الإسلامية -->
+                    <div class="source-category">
+                        <h3>المصادر الإسلامية</h3>
+                        <ul>
+                            <li>القرآن الكريم - سورة يوسف، يونس، الزخرف، المؤمنون</li>
+                            <li>صحيح مسلم - أحاديث فضل مصر</li>
+                            <li>تفسير ابن كثير</li>
+                            <li>تفسير الطبري</li>
+                        </ul>
+                    </div>
+                    <!-- المصادر الحديثة -->
+                    <div class="source-category">
+                        <h3>المصادر الحديثة</h3>
+                        <ul>
+                            <li>الاستراتيجية الوطنية المصرية للذكاء الاصطناعي 2025-2030</li>
+                            <li>وزارة الاتصالات وتكنولوجيا المعلومات المصرية</li>
+                            <li>المتحف المصري بالقاهرة</li>
+                            <li>المتحف البريطاني - قسم الآثار المصرية</li>
+                            <li>اليونسكو - تقارير التراث العالمي</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>كنوز النيل</h3>
+                    <p>رحلة عبر 7000 عام من الحضارة المصرية</p>
+                </div>
+                <div class="footer-section">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="#pharaonic">العصر الفرعوني</a></li>
+                        <li><a href="#quran">مصر في القرآن</a></li>
+                        <li><a href="#modern">الذكاء الاصطناعي</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>تواصل معنا</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 كنوز النيل. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
